@@ -1,0 +1,43 @@
+.optionParentDiv {
+    margin-top: 2em;
+    justify-content: center;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.optionParentDiv .optionChildDiv{
+    position:absolute;
+    z-index: 1;
+    background-color: white;
+    border-radius: 8px;
+    width: 61em;
+    display: flex ;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    justify-content: space-between;
+}
+
+.optionParentDiv .optionChildDiv .optionInnerDiv{
+    padding-top: .9em;
+    text-align: center;
+    padding-left: 1.5em;
+    padding-right: 1em;
+    display: inline-grid;
+}
+
+.optionParentDiv .optionChildDiv .optionInnerDiv img{
+    height: 2.3em;
+}
+
+.optionParentDiv .optionChildDiv .optionInnerDiv span{
+    padding-bottom: 10px;
+    margin-bottom: 1px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #4a4a4a;
+}
+.optionParentDiv .optionChildDiv .optionInnerDiv  .active{
+    padding-bottom: 7px;
+    color: #008cff;
+    border-bottom: solid 3px rgb(0 140 255);
+}

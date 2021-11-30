@@ -1,0 +1,137 @@
+.menu{
+    color: white;
+    height: 31.5em;
+    background-image:linear-gradient(to bottom, #051322, #15457c);    
+}
+
+.menuParentDiv .header{
+    height: 3em;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuParentDiv .logo img{
+    padding-top: .1em;
+    height: 2.3em;
+    padding-left: 10.4vw;
+}
+
+.menuParentDiv .header-items{
+    display: flex;
+    padding-right: 11.5vw;
+}
+
+.menuParentDiv .MyBizLink{
+    padding-top: 3px;
+    display: grid;
+    padding-right: 10px;
+}
+
+.menuParentDiv .MyBizLink :first-child{
+    font-weight: 500;
+    font-size: 15px;
+    height: 10px;
+}
+
+.menuParentDiv .MyBizLink :last-child{
+    font-size: 10px;
+}
+.menuParentDiv .MytripsLink{
+    padding-top: 5px;
+    display: grid;
+}
+.menuParentDiv .MytripsLink :first-child{
+    height: 0;
+    padding-bottom: 8px;
+    font-weight: 550;
+    font-size: 11.5px;
+}
+
+.menuParentDiv .MytripsLink :last-child{
+    font-size: 10px;
+    font-weight: lighter;
+    color: #c2c2c2;
+}
+
+.menuParentDiv .MyBizImg{
+    float: left;
+}
+
+.menuParentDiv .MyBizImg img{
+    height: 1.9em;
+    padding-right: .5em;
+    padding-left: .5em;
+}
+
+.menuParentDiv .header .login{
+    height: 2.3em;
+    display: flex;
+    margin-left: .5em;
+    padding-left: .5em;
+    width: 12.8em;
+    background-image: var(--color-btn-primary-bg,linear-gradient(93deg,#53b2fe,#065af3));
+    border-radius: 4px;
+    align-items: center;
+}
+
+.menuParentDiv .header .MyBizImg::before {
+    content:"";
+    border-left: 2px dotted hsla(0,0%,100%,.15);;
+    padding-top: 22px;
+}
+
+.menuParentDiv .header .login img{
+    width: 1.4em;
+}
+
+.menuParentDiv .header .login span{
+    font-size: x-small;
+    padding-left: 8px;
+}
+.menuParentDiv .header .login span::after{
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    content: "";
+    margin-top: -5px;
+    margin-left: 5em;
+    margin-bottom: 2px;
+
+}
+
+.menuParentDiv .header .language-settings{
+    display: flex;
+    width: 8em;
+    border-radius: 4px;
+    align-items: center;
+    background-color:hsla(0,0%,100%,.15);
+    height: 2.3em;
+}
+
+.menuParentDiv .header .language-settings img{
+    width: .9em;
+    padding-left: .8em;
+    padding-right: .5em;
+}
+
+.menuParentDiv .header .language-settings span{
+    font-size: x-small;
+    font-weight: 700;
+}
+
+.menuParentDiv .header .language-settings span::after{
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    content: "";
+    margin-left: 10px;
+    margin-top: -5px;
+    margin-bottom: 2px;
+}

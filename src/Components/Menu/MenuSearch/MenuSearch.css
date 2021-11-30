@@ -1,0 +1,46 @@
+.MenuSearchParent{
+    display: flex;
+    justify-content: center;
+}
+
+.MenuSearchParent .MenuSearchChild{
+    position: relative;
+    margin-top: 2.2em;
+    padding-top: 2em;
+    height: 16em;
+    background-color: white;
+    border-radius: 8px;
+    width: 1200px;
+    display: flex ;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    justify-content: space-between;
+    
+}
+
+.searchButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: -23px;
+}
+
+.searchButton{
+    width: 190px;
+    padding: 10px;
+    border-radius: 34px;
+    background-image: var(--color-btn-primary-bg,linear-gradient(93deg,#53b2fe,#065af3));
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 20%);
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    margin-bottom: -10px;
+    z-index: 1;
+    
+}
+
+.searchButton span{
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 25px;
+}
